@@ -40,11 +40,17 @@ nav a{
 h1{
   position: absolute;
   top: 50px;
-  margin-left: 2vw;
+  margin-left: 2.6vw;
   font-family: "Space Grotesk", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 9.7rem;
+  font-size: 9.4rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+  max-width: 93vw;
+  display: block;
+  contain: layout style paint;
 }
 
 .Mickey{
