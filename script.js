@@ -44,7 +44,7 @@ function animateElements(){
                 clearInterval(shuffleElement);
                 element.textContent = originalText;
             }  
-        }, 150);
+        }, 180);
     });
 }
 
